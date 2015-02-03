@@ -2,9 +2,9 @@
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.phonegap.helloworld"
 version = "1.0.0">
-<name>Hapnin</name>
+<name>umb</name>
 <description>
-hapnin is an event app that brings to you whats hapening in your location .
+universal merchant bank feedback app,this is to get real tme response from clients  .
 </description>
 <author href="http://phonegap.com" email="support@phonegap.com">
 inappshub
