@@ -4,7 +4,7 @@ id = "com.phonegap.helloworld"
 version = "1.0.0">
 <name>umb</name>
 <description>
-universal merchant bank feedback app,this is to get real tme response from clients  .
+universal merchant bank feedback app,this is to get real time response from clients  .
 </description>
 <author href="http://phonegap.com" email="support@phonegap.com">
 inappshub
