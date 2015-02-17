@@ -16,12 +16,16 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 1.5;
-	background: #fff;
+background:#f8f8f8;
 	color: #000;
 	overflow-x:hidden;
+
 	
 	
 }
+
+
+body img{max-width: 100%}
 
 p{
 	margin-left:10px;
@@ -139,6 +143,15 @@ margin:-8px -15px 0 -15px;
   
   
   }
+
+
+  footer{position:fixed;
+  	background: #f8f8f8;
+  top:570px;
+  	width:100%;
+  	max-width: 100%;
+  	height: auto;
+z-index: 2000;}
   
 	
 	
@@ -447,7 +460,7 @@ article .article-img-pane img { height:100%; max-width: inherit; }
 									box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 
-									font-size:16px ;font: 'Myriad Pro Regular'  text-transform:capitalize;margin-bottom:0px;width:95%;position:relative;margin-left: 5px;height:50px;line-height: 50px;text-indent: 60px;}
+									font-size:16px ;font: 'Myriad Pro Regular'  text-transform:capitalize;margin-bottom:0px;width:100%;position:relative;margin-left: 2px;height:65px;line-height: 50px;text-indent: 60px;}
 
 									.detailbox p{margin-left: 5px;
 
@@ -484,3 +497,21 @@ font-size: 14px;
 
 
 								}
+
+.detailbox2{background:#fff;
+									box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+									font-size:16px ;font: 'Myriad Pro Regular'  text-transform:capitalize;margin-bottom:-10px;width:100%;position:relative;margin-left: 2px;height:60px;line-height: 50px;text-indent: 60px;text-align:center;}
+
+									.detailbox2 p{margin-left: 5px;
+
+
+									}
+
+								.detailbox2 strong{
+font-weight: normal;
+font-size: 14px;
+
+
+								}
+

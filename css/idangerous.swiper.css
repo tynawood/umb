@@ -17,9 +17,10 @@
 Basic Swiper Styles 
 ================================================================*/
 .swiper-container {
+
 	margin:0 auto;
 	position:relative;
-	overflow:hidden;
+
 	-webkit-backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
 	-ms-backface-visibility:hidden;
@@ -28,6 +29,12 @@ Basic Swiper Styles
 	/* Fix of Webkit flickering */
 	z-index:0;
 }
+
+
+
+
+
+
 .swiper-wrapper {
 	position:relative;
 	width:100%;
@@ -115,4 +122,22 @@ Pagination Styles
 .swiper-visible-switch {
 	/* Specific visible button style: */	
 	
+}
+@media only Screen and (min-width: 720px) {
+
+
+.swiper-container {
+
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:0;
+}
+
 }
